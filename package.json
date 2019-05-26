@@ -1,0 +1,60 @@
+{
+  "name": "@sarunint/renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate configuration presets for SarunInt",
+  "author": "Sarun Intaralawan <sarunint@sarunint.com>",
+  "license": "MIT",
+  "renovate-config": {
+    "base": {
+      "extends": [
+        "config:base"
+      ],
+      "prHourlyLimit": 0,
+      "prConcurrentLimit": 0,
+      "rebaseStalePrs": true,
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": "after 1pm before 10pm on Friday, Saturday, Sunday"
+      },
+      "masterIssue": true,
+      "packageRules": [
+        {
+          "packageNames": [
+            "@types/node"
+          ],
+          "major": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    "angular": {
+      "extends": [
+        "@sarunint:base"
+      ],
+      "packageRules": [
+        {
+          "packageNames": [
+            "typescript"
+          ],
+          "allowedVersion": "< 3.3"
+        }
+      ]
+    },
+    "nestjs": {
+      "extends": [
+        "@sarunint:base"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": "^@nestjs/",
+          "groupName": "NestJS packages"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "conventional-github-releaser": "^3.1.2",
+    "standard-version": "^6.0.1"
+  }
+}
