@@ -37,7 +37,7 @@
           "packageNames": [
             "typescript"
           ],
-          "allowedVersions": "< 3.5"
+          "allowedVersion": "< 3.6"
         }
       ]
     },
