@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/sarunint/renovate-config/compare/v1.2.0...v1.2.1) (2019-09-01)
+
+
+### Bug Fixes
+
+* change errorneous `allowedVersion` to `allowedVersions` ([6476036](https://github.com/sarunint/renovate-config/commit/6476036))
+
+
+
 ## [1.2.0](https://github.com/sarunint/renovate-config/compare/v1.0.0...v1.2.0) (2019-08-02)
 
 
