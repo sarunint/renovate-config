@@ -5,6 +5,7 @@
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "automerge": true,
+  "requiredStatusChecks": null,
   "rebaseStalePrs": true,
   "lockFileMaintenance": {
     "enabled": true
