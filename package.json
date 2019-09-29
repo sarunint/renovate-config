@@ -14,7 +14,9 @@
       "rebaseStalePrs": true,
       "lockFileMaintenance": {
         "enabled": true,
-        "schedule": "after 1pm before 10pm on Friday, Saturday, Sunday"
+        "schedule": "after 1pm before 10pm on Friday, Saturday, Sunday",
+        "automerge": true,
+        "requiredStatusChecks": null
       },
       "masterIssue": true,
       "packageRules": [
