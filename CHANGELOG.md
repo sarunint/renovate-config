@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/sarunint/renovate-config/compare/v1.2.1...v2.0.0) (2019-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* Lock file maintenance are now automatically merged, if the bot has merge permission.
+
+### Features
+
+* automerge lock file maintenances ([1e160d1](https://github.com/sarunint/renovate-config/commit/1e160d1))
+
 ### [1.2.1](https://github.com/sarunint/renovate-config/compare/v1.2.0...v1.2.1) (2019-09-01)
 
 
