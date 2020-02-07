@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/sarunint/renovate-config/compare/v2.0.0...v2.1.0) (2020-02-07)
+
+
+### Features
+
+* **angular:** restrict Angular CLI packages that hasn't reached 1.0.0 yet ([c5cc5d8](https://github.com/sarunint/renovate-config/commit/c5cc5d81420b6935d80b81c243345b630b48ce02))
+
 ## [2.0.0](https://github.com/sarunint/renovate-config/compare/v1.2.1...v2.0.0) (2019-09-29)
 
 
