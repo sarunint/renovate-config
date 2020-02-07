@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/sarunint/renovate-config/compare/v2.1.1...v3.0.0) (2020-02-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **angular:** The `angular` preset will now update Angular packages to be compatible with Angular v9. If you want to remain with v8, use `angular-v8` preset instead.
+
+### Features
+
+* **angular:** update for Angular v9 ([015e589](https://github.com/sarunint/renovate-config/commit/015e589a56b629131cc90454bf4a5efbfd550a20))
+
 ### [2.1.1](https://github.com/sarunint/renovate-config/compare/v2.1.0...v2.1.1) (2020-02-07)
 
 
