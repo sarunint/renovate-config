@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/sarunint/renovate-config/compare/v3.0.0...v3.0.1) (2020-02-07)
+
+
+### Bug Fixes
+
+* **angular:** fix misspelled angularcli ([d23a2e0](https://github.com/sarunint/renovate-config/commit/d23a2e0a53d65b9ba0b6ac1bd363e5314bc6354a))
+
 ## [3.0.0](https://github.com/sarunint/renovate-config/compare/v2.1.1...v3.0.0) (2020-02-07)
 
 
