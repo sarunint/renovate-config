@@ -43,7 +43,7 @@
         },
         {
           "packageNames": [
-            "@angular-devkit/architech",
+            "@angular-devkit/architect",
             "@angular-devkit/build-angular",
             "@angular/pwa"
           ],
