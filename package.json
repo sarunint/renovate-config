@@ -40,6 +40,14 @@
             "typescript"
           ],
           "allowedVersions": "< 3.6"
+        },
+        {
+          "packageNames": [
+            "@angular-devkit/architech",
+            "@angular-devkit/build-angular",
+            "@angular/pwa"
+          ],
+          "allowedVersions": "< 0.900.0"
         }
       ]
     },
