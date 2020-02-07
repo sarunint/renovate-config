@@ -32,6 +32,22 @@
     },
     "angular": {
       "extends": [
+        "@sarunint:angular-v9"
+      ]
+    },
+    "nestjs": {
+      "extends": [
+        "@sarunint:base"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": "^@nestjs/",
+          "groupName": "NestJS packages"
+        }
+      ]
+    },
+    "angular-v8": {
+      "extends": [
         "@sarunint:base"
       ],
       "packageRules": [
@@ -40,6 +56,14 @@
             "typescript"
           ],
           "allowedVersions": "< 3.6"
+        },
+        {
+          "extends": "monorepo:angularCli",
+          "allowedVersions": "< 9.0.0"
+        },
+        {
+          "extends": "monorepo:angular",
+          "allowedVersions": "< 9.0.0"
         },
         {
           "packageNames": [
@@ -51,14 +75,32 @@
         }
       ]
     },
-    "nestjs": {
+    "angular-v9": {
       "extends": [
         "@sarunint:base"
       ],
       "packageRules": [
         {
-          "packagePatterns": "^@nestjs/",
-          "groupName": "NestJS packages"
+          "packageNames": [
+            "typescript"
+          ],
+          "allowedVersions": "< 3.8"
+        },
+        {
+          "extends": "monorepo:angularCli",
+          "allowedVersions": "< 10.0.0"
+        },
+        {
+          "extends": "monorepo:angular",
+          "allowedVersions": "< 10.0.0"
+        },
+        {
+          "packageNames": [
+            "@angular-devkit/architect",
+            "@angular-devkit/build-angular",
+            "@angular/pwa"
+          ],
+          "allowedVersions": "< 0.1000.0"
         }
       ]
     }
