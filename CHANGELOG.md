@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/sarunint/renovate-config/compare/v2.1.0...v2.1.1) (2020-02-07)
+
+
+### Bug Fixes
+
+* **angular:** fix the misspelled package name ([706f972](https://github.com/sarunint/renovate-config/commit/706f972276efc00419638b4d91759cbc64aaa2b9))
+
 ## [2.1.0](https://github.com/sarunint/renovate-config/compare/v2.0.0...v2.1.0) (2020-02-07)
 
 
