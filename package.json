@@ -58,7 +58,7 @@
           "allowedVersions": "< 3.6"
         },
         {
-          "extends": "monorepo:angularCli",
+          "extends": "monorepo:angularcli",
           "allowedVersions": "< 9.0.0"
         },
         {
@@ -87,7 +87,7 @@
           "allowedVersions": "< 3.8"
         },
         {
-          "extends": "monorepo:angularCli",
+          "extends": "monorepo:angularcli",
           "allowedVersions": "< 10.0.0"
         },
         {
