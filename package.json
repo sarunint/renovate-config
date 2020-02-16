@@ -58,11 +58,11 @@
           "allowedVersions": "< 3.6"
         },
         {
-          "extends": "monorepo:angularcli",
+          "extends": ["monorepo:angularcli"],
           "allowedVersions": "< 9.0.0"
         },
         {
-          "extends": "monorepo:angular",
+          "extends": ["monorepo:angular"],
           "allowedVersions": "< 9.0.0"
         },
         {
@@ -87,11 +87,11 @@
           "allowedVersions": "< 3.8"
         },
         {
-          "extends": "monorepo:angularcli",
+          "extends": ["monorepo:angularcli"],
           "allowedVersions": "< 10.0.0"
         },
         {
-          "extends": "monorepo:angular",
+          "extends": ["monorepo:angular"],
           "allowedVersions": "< 10.0.0"
         },
         {
