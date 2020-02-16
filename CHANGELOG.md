@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/sarunint/renovate-config/compare/v3.0.1...v3.0.2) (2020-02-16)
+
+
+### Bug Fixes
+
+* change `extends` to be an array ([b13569b](https://github.com/sarunint/renovate-config/commit/b13569b35fd0c8df57d5c2d8a04541a06f9a943a))
+
 ### [3.0.1](https://github.com/sarunint/renovate-config/compare/v3.0.0...v3.0.1) (2020-02-07)
 
 
