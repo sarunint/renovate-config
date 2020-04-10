@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/sarunint/renovate-config/compare/v3.0.2...v3.1.0) (2020-04-10)
+
+
+### Features
+
+* expand TypeScript version for Angular v9 preset to < 3.9 ([7090fda](https://github.com/sarunint/renovate-config/commit/7090fdab6705ded246b61bb019a24f6a0ee6b031))
+
 ### [3.0.2](https://github.com/sarunint/renovate-config/compare/v3.0.1...v3.0.2) (2020-02-16)
 
 
