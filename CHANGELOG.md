@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/sarunint/renovate-config/compare/v3.1.0...v4.0.0) (2020-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Preset `angular-v8` is no longer available.
+
+### Features
+
+* add `angular-v10` preset ([0dcf7c4](https://github.com/sarunint/renovate-config/commit/0dcf7c48a1cc82fb39ab257c39b77824ec9b4426))
+* fix `@types/node` to v12 ([c345e9c](https://github.com/sarunint/renovate-config/commit/c345e9c339c941197bacc60e99cffd60f1dd866b))
+* remove `angular-v8` preset ([6794bd1](https://github.com/sarunint/renovate-config/commit/6794bd1bbe5291fccba9707ac042520895fa0e30))
+
 ## [3.1.0](https://github.com/sarunint/renovate-config/compare/v3.0.2...v3.1.0) (2020-04-10)
 
 
