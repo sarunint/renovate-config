@@ -47,39 +47,6 @@
         }
       ]
     },
-    "angular-v8": {
-      "extends": [
-        "@sarunint:base"
-      ],
-      "packageRules": [
-        {
-          "packageNames": [
-            "typescript"
-          ],
-          "allowedVersions": "< 3.6"
-        },
-        {
-          "extends": [
-            "monorepo:angularcli"
-          ],
-          "allowedVersions": "< 9.0.0"
-        },
-        {
-          "extends": [
-            "monorepo:angular"
-          ],
-          "allowedVersions": "< 9.0.0"
-        },
-        {
-          "packageNames": [
-            "@angular-devkit/architect",
-            "@angular-devkit/build-angular",
-            "@angular/pwa"
-          ],
-          "allowedVersions": "< 0.900.0"
-        }
-      ]
-    },
     "angular-v9": {
       "extends": [
         "@sarunint:base"
