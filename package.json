@@ -28,12 +28,12 @@
             "enabled": true
           },
           "allowedVersions": "< 13"
-          }
+        }
       ]
     },
     "angular": {
       "extends": [
-        "@sarunint:angular-v9"
+        "@sarunint:angular-v10"
       ]
     },
     "nestjs": {
@@ -110,6 +110,39 @@
             "@angular/pwa"
           ],
           "allowedVersions": "< 0.1000.0"
+        }
+      ]
+    },
+    "angular-v10": {
+      "extends": [
+        "@sarunint:base"
+      ],
+      "packageRules": [
+        {
+          "packageNames": [
+            "typescript"
+          ],
+          "allowedVersions": "< 3.10"
+        },
+        {
+          "extends": [
+            "monorepo:angularcli"
+          ],
+          "allowedVersions": "< 11.0.0"
+        },
+        {
+          "extends": [
+            "monorepo:angular"
+          ],
+          "allowedVersions": "< 11.0.0"
+        },
+        {
+          "packageNames": [
+            "@angular-devkit/architect",
+            "@angular-devkit/build-angular",
+            "@angular/pwa"
+          ],
+          "allowedVersions": "< 0.1100.0"
         }
       ]
     }
