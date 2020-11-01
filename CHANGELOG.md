@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/sarunint/renovate-config/compare/v4.1.0...v5.0.0) (2020-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* NestJS monprepo no longer uses custom configuration.
+
+### Features
+
+* use Renovate's internal NestJS monorepo ([8c669a6](https://github.com/sarunint/renovate-config/commit/8c669a6ee7a5190b567c3347d7206f4e79a6221c))
+
 ## [4.1.0](https://github.com/sarunint/renovate-config/compare/v4.0.0...v4.1.0) (2020-11-01)
 
 
