@@ -89,7 +89,7 @@
           "packageNames": [
             "typescript"
           ],
-          "allowedVersions": "< 3.10"
+          "allowedVersions": "< 4.1"
         },
         {
           "extends": [
