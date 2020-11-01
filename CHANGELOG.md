@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/sarunint/renovate-config/compare/v4.0.0...v4.1.0) (2020-11-01)
+
+
+### Features
+
+* expand TypeScript version for Angular v10 preset to < 4.1 ([79cc21a](https://github.com/sarunint/renovate-config/commit/79cc21a7e302810cb85990414615e20b07dcee91))
+
 ## [4.0.0](https://github.com/sarunint/renovate-config/compare/v3.1.0...v4.0.0) (2020-06-25)
 
 
