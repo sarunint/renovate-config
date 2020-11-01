@@ -39,12 +39,6 @@
     "nestjs": {
       "extends": [
         "@sarunint:base"
-      ],
-      "packageRules": [
-        {
-          "packagePatterns": "^@nestjs/",
-          "groupName": "NestJS packages"
-        }
       ]
     },
     "angular-v9": {
