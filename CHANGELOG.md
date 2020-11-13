@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/sarunint/renovate-config/compare/v5.0.0...v6.0.0) (2020-11-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* `angular` now extends `angular-v11`
+* `angular-v9` preset is no longer available
+
+### Features
+
+* add `angular-v11` preset ([56a2599](https://github.com/sarunint/renovate-config/commit/56a2599f93853cf3642f81ca58c28b7db5dc3620))
+* change `angular` preset to extend `angular-v11` ([2843360](https://github.com/sarunint/renovate-config/commit/2843360c50b2cb7ff3a8a6b9ed037e7a6bd2398c))
+* remove `angular-v9` preset ([d62e3f6](https://github.com/sarunint/renovate-config/commit/d62e3f6dca1623cfede80d425bb1efbb8a7a6521))
+
 ## [5.0.0](https://github.com/sarunint/renovate-config/compare/v4.1.0...v5.0.0) (2020-11-01)
 
 
