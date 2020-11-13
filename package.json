@@ -33,7 +33,7 @@
     },
     "angular": {
       "extends": [
-        "@sarunint:angular-v10"
+        "@sarunint:angular-v11"
       ]
     },
     "nestjs": {
