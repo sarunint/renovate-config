@@ -73,6 +73,39 @@
           "allowedVersions": "< 0.1100.0"
         }
       ]
+    },
+    "angular-v11": {
+      "extends": [
+        "@sarunint:base"
+      ],
+      "packageRules": [
+        {
+          "packageNames": [
+            "typescript"
+          ],
+          "allowedVersions": "< 4.1"
+        },
+        {
+          "extends": [
+            "monorepo:angularcli"
+          ],
+          "allowedVersions": "< 12.0.0"
+        },
+        {
+          "extends": [
+            "monorepo:angular"
+          ],
+          "allowedVersions": "< 12.0.0"
+        },
+        {
+          "packageNames": [
+            "@angular-devkit/architect",
+            "@angular-devkit/build-angular",
+            "@angular/pwa"
+          ],
+          "allowedVersions": "< 0.1200.0"
+        }
+      ]
     }
   },
   "devDependencies": {
