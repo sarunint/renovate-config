@@ -90,7 +90,8 @@
             "monorepo:angularcli",
             "monorepo:angular"
           ],
-          "allowedVersions": "< 12.0.0"
+          "allowedVersions": "< 12.0.0",
+          "groupName": "Angular and Angular CLI packages"
         },
         {
           "packageNames": [
