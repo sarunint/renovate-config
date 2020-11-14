@@ -1,6 +1,6 @@
 {
   "name": "@sarunint/renovate-config",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Renovate configuration presets for SarunInt",
   "author": "Sarun Intaralawan <sarunint@sarunint.com>",
   "license": "MIT",
@@ -102,7 +102,9 @@
               "npm ci --ignore-scripts",
               "npx ng update {{{depName}}} --from={{{fromVersion}}} --to={{{toVersion}}} --migrateOnly --allowDirty --force"
             ],
-            "fileFilters": ["**/**"]
+            "fileFilters": [
+              "**/**"
+            ]
           }
         },
         {

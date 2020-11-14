@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/sarunint/renovate-config/compare/v6.0.0...v6.1.0) (2020-11-14)
+
+
+### Features
+
+* add post-upgrade commands for `angular-v11` ([97c746b](https://github.com/sarunint/renovate-config/commit/97c746b0361f0a9f0d35372fd179258e63a081c7))
+
 ## [6.0.0](https://github.com/sarunint/renovate-config/compare/v5.0.0...v6.0.0) (2020-11-13)
 
 
