@@ -87,15 +87,23 @@
         },
         {
           "extends": [
-            "monorepo:angularcli"
+            "monorepo:angularcli",
+            "monorepo:angular"
           ],
           "allowedVersions": "< 12.0.0"
         },
         {
-          "extends": [
-            "monorepo:angular"
+          "packageNames": [
+            "@angular/core",
+            "@angular/cli"
           ],
-          "allowedVersions": "< 12.0.0"
+          "postUpgradeTasks": {
+            "commands": [
+              "npm ci --ignore-scripts",
+              "npx ng update {{{depName}}} --from={{{fromVersion}}} --to={{{toVersion}}} --migrateOnly --allowDirty --force"
+            ],
+            "fileFilters": ["**/**"]
+          }
         },
         {
           "packageNames": [
