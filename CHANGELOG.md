@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.2.0](https://github.com/sarunint/renovate-config/compare/v6.1.0...v6.2.0) (2020-11-14)
+
+
+### Features
+
+* group Angular and Angular CLI update together ([09509a3](https://github.com/sarunint/renovate-config/commit/09509a34f8fccb897374cb3194ee4904914e53bb))
+
 ## [6.1.0](https://github.com/sarunint/renovate-config/compare/v6.0.0...v6.1.0) (2020-11-14)
 
 
