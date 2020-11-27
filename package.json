@@ -1,6 +1,6 @@
 {
   "name": "@sarunint/renovate-config",
-  "version": "6.2.1",
+  "version": "6.2.2",
   "description": "Renovate configuration presets for SarunInt",
   "author": "Sarun Intaralawan <sarunint@sarunint.com>",
   "license": "MIT",
@@ -99,7 +99,11 @@
             "@angular/core",
             "@angular/cli"
           ],
-          "updateTypes": ["major", "minor", "patch"],
+          "updateTypes": [
+            "major",
+            "minor",
+            "patch"
+          ],
           "postUpgradeTasks": {
             "commands": [
               "npm ci --ignore-scripts",

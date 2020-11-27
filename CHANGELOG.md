@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.2.2](https://github.com/sarunint/renovate-config/compare/v6.2.1...v6.2.2) (2020-11-27)
+
+
+### Bug Fixes
+
+* run migrations only on version updates ([dd37d6d](https://github.com/sarunint/renovate-config/commit/dd37d6d9b3dfe5dfe69079d4e1dce85a7a377860))
+
 ### [6.2.1](https://github.com/sarunint/renovate-config/compare/v6.2.0...v6.2.1) (2020-11-15)
 
 
