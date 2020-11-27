@@ -99,6 +99,7 @@
             "@angular/core",
             "@angular/cli"
           ],
+          "updateTypes": ["major", "minor", "patch"],
           "postUpgradeTasks": {
             "commands": [
               "npm ci --ignore-scripts",
