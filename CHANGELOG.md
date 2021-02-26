@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.3.0](https://github.com/sarunint/renovate-config/compare/v6.2.2...v6.3.0) (2021-02-26)
+
+
+### Features
+
+* allow @types/node@^14 ([21208db](https://github.com/sarunint/renovate-config/commit/21208dbfdac50d3e22d61950c1a0ba95eeb05b85))
+
 ### [6.2.2](https://github.com/sarunint/renovate-config/compare/v6.2.1...v6.2.2) (2020-11-27)
 
 
