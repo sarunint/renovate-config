@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.3.1](https://github.com/sarunint/renovate-config/compare/v6.3.0...v6.3.1) (2021-02-26)
+
+
+### Bug Fixes
+
+* use new template variables ([1dfb70f](https://github.com/sarunint/renovate-config/commit/1dfb70f335eb8823c6104957f1ac2a98bb5204df))
+* use snake-case for Angular CLI options ([1a84fdd](https://github.com/sarunint/renovate-config/commit/1a84fddf8f2ba0b08e195c0ca4051c66452019f5))
+
 ## [6.3.0](https://github.com/sarunint/renovate-config/compare/v6.2.2...v6.3.0) (2021-02-26)
 
 

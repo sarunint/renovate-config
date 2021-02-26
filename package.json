@@ -1,6 +1,6 @@
 {
   "name": "@sarunint/renovate-config",
-  "version": "6.3.0",
+  "version": "6.3.1",
   "description": "Renovate configuration presets for SarunInt",
   "author": "Sarun Intaralawan <sarunint@sarunint.com>",
   "license": "MIT",
