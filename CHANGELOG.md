@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.4.0](https://github.com/sarunint/renovate-config/compare/v6.3.1...v6.4.0) (2021-06-08)
+
+
+### Features
+
+* **angular-v11:** allow TypeScript 4.1 ([f3357f5](https://github.com/sarunint/renovate-config/commit/f3357f5fb5d4152ab68ac6e947230e5ff38c4877))
+* **angular-v12:** add Angular v12 preset ([6a58693](https://github.com/sarunint/renovate-config/commit/6a58693e6e6d103fcd2b1d23101bab173bf021a0))
+
 ### [6.3.1](https://github.com/sarunint/renovate-config/compare/v6.3.0...v6.3.1) (2021-02-26)
 
 
