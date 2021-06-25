@@ -30,7 +30,7 @@
           "allowedVersions": "< 15"
         },
         {
-          "extends": [
+          "packageNames": [
             "jest",
             "ts-jest"
           ],
