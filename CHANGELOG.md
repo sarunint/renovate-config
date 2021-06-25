@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.5.0](https://github.com/sarunint/renovate-config/compare/v6.4.0...v6.5.0) (2021-06-25)
+
+
+### Features
+
+* group jest and ts-jest together ([b8c817d](https://github.com/sarunint/renovate-config/commit/b8c817d62b318c2104c10743a3394af2ea67e076))
+
 ## [6.4.0](https://github.com/sarunint/renovate-config/compare/v6.3.1...v6.4.0) (2021-06-08)
 
 
