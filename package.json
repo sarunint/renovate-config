@@ -28,6 +28,13 @@
             "enabled": true
           },
           "allowedVersions": "< 15"
+        },
+        {
+          "extends": [
+            "jest",
+            "ts-jest"
+          ],
+          "groupName": "Jest packages"
         }
       ]
     },
