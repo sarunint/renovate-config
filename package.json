@@ -35,6 +35,11 @@
             "ts-jest"
           ],
           "groupName": "Jest packages"
+        },
+        {
+          "matchPackageNames": ["node"],
+          "matchManagers": ["gitlabci"],
+          "enabled": false
         }
       ]
     },
