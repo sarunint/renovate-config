@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.6.0](https://github.com/sarunint/renovate-config/compare/v6.5.1...v6.6.0) (2021-06-26)
+
+
+### Features
+
+* add RxJS version restriction ([9d65f83](https://github.com/sarunint/renovate-config/commit/9d65f83b7bc4d51897e40f7d09f0f99849e1877e))
+
+
+### Bug Fixes
+
+* remove Angular CLI v12 pre 1.0 packages version restriction ([35b2993](https://github.com/sarunint/renovate-config/commit/35b29933a11a483e6f8bb815ad974f7637a19290))
+
 ### [6.5.1](https://github.com/sarunint/renovate-config/compare/v6.5.0...v6.5.1) (2021-06-25)
 
 
