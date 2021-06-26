@@ -185,14 +185,6 @@
         },
         {
           "packageNames": [
-            "@angular-devkit/architect",
-            "@angular-devkit/build-angular",
-            "@angular/pwa"
-          ],
-          "allowedVersions": "< 0.1300.0"
-        },
-        {
-          "packageNames": [
             "rxjs"
           ],
           "allowedVersions": "< 7.0.0"
