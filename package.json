@@ -78,6 +78,12 @@
             "@angular/pwa"
           ],
           "allowedVersions": "< 0.1100.0"
+        },
+        {
+          "packageNames": [
+            "rxjs"
+          ],
+          "allowedVersions": "< 7.0.0"
         }
       ]
     },
@@ -128,6 +134,12 @@
             "@angular/pwa"
           ],
           "allowedVersions": "< 0.1200.0"
+        },
+        {
+          "packageNames": [
+            "rxjs"
+          ],
+          "allowedVersions": "< 7.0.0"
         }
       ]
     },
@@ -178,6 +190,12 @@
             "@angular/pwa"
           ],
           "allowedVersions": "< 0.1300.0"
+        },
+        {
+          "packageNames": [
+            "rxjs"
+          ],
+          "allowedVersions": "< 7.0.0"
         }
       ]
     }
