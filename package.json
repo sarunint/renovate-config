@@ -1,6 +1,6 @@
 {
   "name": "@sarunint/renovate-config",
-  "version": "6.6.0",
+  "version": "6.7.0",
   "description": "Renovate configuration presets for SarunInt",
   "author": "Sarun Intaralawan <sarunint@sarunint.com>",
   "license": "MIT",
@@ -37,8 +37,12 @@
           "groupName": "Jest packages"
         },
         {
-          "matchPackageNames": ["node"],
-          "matchManagers": ["gitlabci"],
+          "matchPackageNames": [
+            "node"
+          ],
+          "matchManagers": [
+            "gitlabci"
+          ],
           "enabled": false
         }
       ]

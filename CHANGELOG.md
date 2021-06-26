@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.7.0](https://github.com/sarunint/renovate-config/compare/v6.6.0...v6.7.0) (2021-06-26)
+
+
+### Features
+
+* disable node version check in GitLab CI ([5e6f939](https://github.com/sarunint/renovate-config/commit/5e6f939b0557a40052c2d2c05db4d71bb35886fc))
+
 ## [6.6.0](https://github.com/sarunint/renovate-config/compare/v6.5.1...v6.6.0) (2021-06-26)
 
 
