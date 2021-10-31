@@ -196,7 +196,7 @@
           "packageNames": [
             "rxjs"
           ],
-          "allowedVersions": "< 7.0.0"
+          "allowedVersions": "< 8.0.0"
         }
       ]
     }
