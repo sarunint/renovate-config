@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.8.0](https://github.com/sarunint/renovate-config/compare/v6.7.0...v6.8.0) (2021-10-31)
+
+
+### Features
+
+* allow RxJS v7 for angular-v12 preset ([6396a15](https://github.com/sarunint/renovate-config/commit/6396a15ea7fa8b474df3c8c32fcf57b84a81a0a0))
+
 ## [6.7.0](https://github.com/sarunint/renovate-config/compare/v6.6.0...v6.7.0) (2021-06-26)
 
 
