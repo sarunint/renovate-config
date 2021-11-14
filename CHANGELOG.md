@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.9.0](https://github.com/sarunint/renovate-config/compare/v6.8.0...v6.9.0) (2021-11-14)
+
+
+### Features
+
+* add `angular-v13` preset ([79fa709](https://github.com/sarunint/renovate-config/commit/79fa709ed9db3b1fdb113e059e658493475bde63))
+
 ## [6.8.0](https://github.com/sarunint/renovate-config/compare/v6.7.0...v6.8.0) (2021-10-31)
 
 
