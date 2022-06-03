@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/sarunint/renovate-config/compare/v6.11.0...v7.0.0) (2022-06-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* preset `angular`, `angular-v10`, `angular-v11` and `angular-v12` are no longer available.
+
+### Features
+
+* create `angular-v14` preset ([1c73095](https://github.com/sarunint/renovate-config/commit/1c73095d2bbd3fc4bdbdf19658a63cf56c001417))
+* remove unused presets ([e318b33](https://github.com/sarunint/renovate-config/commit/e318b33e46f47253e45b57bea666686a0ef96cbf))
+
 ## [6.11.0](https://github.com/sarunint/renovate-config/compare/v6.10.0...v6.11.0) (2022-06-03)
 
 
