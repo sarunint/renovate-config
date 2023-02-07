@@ -148,5 +148,8 @@
         }
       ]
     }
+  },
+  "devDependencies": {
+    "semantic-release": "20.1.0"
   }
 }
