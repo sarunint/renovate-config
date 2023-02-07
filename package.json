@@ -27,7 +27,7 @@
           "major": {
             "enabled": true
           },
-          "allowedVersions": "< 17"
+          "allowedVersions": "< 19"
         },
         {
           "packageNames": [
