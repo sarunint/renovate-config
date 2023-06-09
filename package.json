@@ -150,6 +150,6 @@
     }
   },
   "devDependencies": {
-    "semantic-release": "21.0.3"
+    "semantic-release": "21.0.4"
   }
 }
