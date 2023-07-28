@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "rebaseStalePrs": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "after 1pm before 10pm on Friday, Saturday, Sunday",
+    "automerge": true,
+    "requiredStatusChecks": null
+  },
+  "masterIssue": true,
+  "packageRules": [
+    {
+      "packageNames": [
+        "@types/node"
+      ],
+      "major": {
+        "enabled": true
+      },
+      "allowedVersions": "< 19"
+    },
+    {
+      "packageNames": [
+        "jest",
+        "ts-jest"
+      ],
+      "groupName": "Jest packages"
+    },
+    {
+      "matchPackageNames": [
+        "node"
+      ],
+      "matchManagers": [
+        "gitlabci"
+      ],
+      "enabled": false
+    }
+  ]
+}
