@@ -40,6 +40,12 @@
     },
     {
       "packageNames": [
+        "zone.js"
+      ],
+      "allowedVersions": "< 0.14.0"
+    },
+    {
+      "packageNames": [
         "rxjs"
       ],
       "allowedVersions": "< 8.0.0"
