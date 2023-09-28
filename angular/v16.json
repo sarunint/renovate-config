@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@sarunint:base"
+    "github>sarunint/renovate-config//base"
   ],
   "packageRules": [
     {
